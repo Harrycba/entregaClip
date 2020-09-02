@@ -1,17 +1,28 @@
 body {
+  padding-top: 70px;
+  background-color: #480000;
+}
 
-    font-family: "Arial Black", Helvetica, sans-serif;
-    font-size: 16px;
-    color: black;
-  }
-  
-  header {
-    background-color: #00897B;
-  }
-  
-  h1{  
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Noto Sans JP', sans-serif;
-  }
+#seccionClase{
+  background-color: lightseagreen;
+  border-radius: 10px;
 
-  
+}
+
+.container {
+  justify-content: space-around;
+}
+
+.navbar{
+  background-color: darkred;
+}
+
+.texto-article{
+  text-align: center;
+  color: white;
+}
+
+.footer
+{
+  color: white
+}
