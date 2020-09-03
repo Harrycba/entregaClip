@@ -8,8 +8,6 @@ body {
   border-radius: 10px;
 }
 
-
-
 .navbar {
   background-color: darkred;
 }
@@ -20,7 +18,7 @@ body {
 .texto-article {
   text-align: center;
   color: white;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .tarjetas-presentacion {
@@ -60,7 +58,6 @@ hr {
 .zoom {
   transition: transform 0.2s;
   width: 100%;
-  margin: 0 auto;
   z-index: 0;
 }
 
@@ -69,16 +66,17 @@ hr {
   z-index: 1;
   background-color: darkred;
   border-radius: 15px;
-
+  margin-bottom: -250px; /*agrego este margin para solucionar 
+                          el problema de movimiento de las otras*/
 }
 
-p.cita{
-  font-family: 'Permanent Marker', cursive;
+p.cita {
+  font-family: "Permanent Marker", cursive;
   font-size: 14px;
-  display:none;
-  color:white
+  display: none;
+  color: white;
 }
+
 div.cita-oculta:hover p.cita {
-  display:block;
-  }
-  
+  display: block;
+}
