@@ -8,22 +8,26 @@ body {
   border-radius: 10px;
 }
 
-.container {
-  justify-content: space-around;
-}
+
 
 .navbar {
   background-color: darkred;
 }
 
+.footer {
+  background-color: white;
+}
 .texto-article {
   text-align: center;
   color: white;
+  font-family: 'Roboto Slab', serif;
 }
 
-.tarjetas-presentacion{
+.tarjetas-presentacion {
   text-align: center;
-  color:white;
+
+  border-radius: 10px;
+  z-index: 0;
 }
 .texto-vanderlinde {
   text-align: center;
@@ -38,34 +42,43 @@ body {
   border-radius: 10px;
 }
 
-hr{
-
+hr {
   color: white;
 }
 
 @font-face {
   font-family: "letrardr2";
-  src:url("/fonts/chinese-rocks-rg.ttf");
+  src: url("/fonts/chinese-rocks-rg.ttf");
 }
 
-.txt{
+.txt {
   font-family: "letrardr2";
   text-align: center;
   color: white;
 }
 
-.hover01 figure img {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-  position: relative;
-  z-index: -1;
-}
-.hover01 figure:hover img{
-	-webkit-transform: scale(1.3);
-  transform: scale(1.3);
-  position: relative;
-  z-index: 1;  
+.zoom {
+  transition: transform 0.2s;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 0;
 }
 
+.zoom:hover {
+  transform: scale(1.3);
+  z-index: 1;
+  background-color: darkred;
+  border-radius: 15px;
+
+}
+
+p.cita{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 14px;
+  display:none;
+  color:white
+}
+div.cita-oculta:hover p.cita {
+  display:block;
+  }
+  
