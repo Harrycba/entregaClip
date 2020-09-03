@@ -50,6 +50,8 @@ hr{
 
 .txt{
   font-family: "letrardr2";
+  text-align: center;
+  color: white;
 }
 
 .hover01 figure img {
@@ -60,10 +62,10 @@ hr{
   position: relative;
   z-index: -1;
 }
-.hover01 figure:hover img {
+.hover01 figure:hover img{
 	-webkit-transform: scale(1.3);
   transform: scale(1.3);
   position: relative;
-  z-index: 1;
+  z-index: 1;  
 }
 
