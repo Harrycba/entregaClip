@@ -3,26 +3,51 @@ body {
   background-color: #480000;
 }
 
-#seccionClase{
+#seccionClase {
   background-color: lightseagreen;
   border-radius: 10px;
-
 }
 
 .container {
   justify-content: space-around;
 }
 
-.navbar{
+.navbar {
   background-color: darkred;
 }
 
-.texto-article{
+.texto-article {
   text-align: center;
   color: white;
 }
 
-.footer
-{
-  color: white
+.tarjetas-presentacion{
+  text-align: center;
+  color:white;
+}
+.texto-vanderlinde {
+  text-align: center;
+  color: white;
+}
+
+.footer {
+  color: white;
+}
+
+.imagen-inicio {
+  border-radius: 10px;
+}
+
+hr{
+
+  color: white;
+}
+
+@font-face {
+  font-family: "chinese rocks rg";
+  src:url("/fonts/chinese-rocks-rg.ttf");
+}
+
+.txt{
+  font-family: "chinese rocks rg";
 }
