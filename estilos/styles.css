@@ -45,12 +45,12 @@ hr {
 }
 
 @font-face {
-  font-family: "chinese-rocks-rg.ttf";
+  font-family: "letrardr2";
   src: url("/fonts/chinese-rocks-rg.ttf");
 }
 
 .txt {
-  font-family: "chinese-rocks-rg.ttf";
+  font-family: "letrardr2";
   text-align: center;
   color: white;
 }
