@@ -13,6 +13,17 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+JP&display=swap"
       rel="stylesheet"
     />
+
+    <script>
+      $("#animar").click(function () {
+        $("#1").animate({
+          left: "250px",
+          opacity: "0,5",
+          height: "150px",
+          width: "200px",
+        });
+      });
+    </script>
   </head>
   <body>
     <header>
@@ -38,10 +49,14 @@
                 <a class="nav-link" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="BandaVanderLinde.html">Banda Van der Linde</a>
+                <a class="nav-link" href="BandaVanderLinde.html"
+                  >Banda Van der Linde</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="VidaSalvaje.html">Vida Salvaje</a>
+                <a class="nav-link active" href="VidaSalvaje.html"
+                  >Vida Salvaje</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contacto</a>
@@ -67,6 +82,7 @@
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"
   ></script>
+
   <footer>
     <p>©CaravajalLucas - Programa Clip 2020</p>
   </footer>
